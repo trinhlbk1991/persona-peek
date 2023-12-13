@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="BowTie.io">
+  <link rel="alternate" type="application/rss+xml" title="Landing Page - a Jekyll template by BowTie.io" href="http://localhost:4000/feed.xml" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Testimonial - Landing Page - a Jekyll template by BowTie.io</title><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="Testimonial"><meta property="og:site_name" content="Landing Page - a Jekyll template by BowTie.io"><meta property="og:description" content="Build a simple landing page without writing code. The BowTie collection editor makes it easy to build sites, blogs, or static apps that you can hand off to clients."><meta property="og:url" content="http://localhost:4000/landers/testimonial/"><meta property="article:published_time" content="2023-12-13T11:07:26+07:00"><meta name="author" content="Your Name"><meta property="article:author" content="http://localhost:4000/about/"><link rel="canonical" href="http://localhost:4000/landers/testimonial/" />
+
+
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+<link href="/css/main.css" rel="stylesheet">
+
+</head>
+
+<body id="landing">
+  <div id="flash-message" style="display:none;">
+  <div class="alert alert-alert fade in" style="display:none;">
+    <button class="close" aria-hidden="true" data-dismiss="alert" type="button">
+      x&nbsp;
+
+      <span class="message">&nbsp;</span>
+    </button>
+  </div>
+
+  <div class="alert alert-notice fade in" style="display:none;">
+    <button class="close" aria-hidden="true" data-dismiss="alert" type="button">
+      x&nbsp;
+
+      <span class="message">&nbsp;</span>
+    </button>
+  </div>
+</div>
+
+  <div id="content" class="actionleft">
+    <section id="hero" class="lander jumbotron bgclear">
+  
+
+
+  <div class="media-wrap">
+    <div style="background-image:url(/img/backgrounds/field.jpg);" class="media fullscreen-bg cover parallax bgoverlayDark"></div>
+  
+  </div>
+
+
+
+
+  <div class="container">
+    <div class="align-elements">
+      <div class="action form  col-sm-6">
+        
+          <!-- include profile.js to add information to bowtie user profiles -->
+
+<form id="landing-form" class="email-form text-left">
+  <h2>Form Heading</h2>
+  <p>form subhead</p>
+  
+  <div class='form-group'>
+    <div class="input">
+      <label class="text">
+        Name
+      </label>
+      <input aria-required="true" class="string text form-control" id="profile_name" maxlength="255" name="profile[name]" placeholder="Name"  size="255" type="text" />
+    </div>
+  </div>
+  
+  
+  <div class='form-group'>
+    <div class="input">
+      <label class="text">
+        Email
+      </label>
+      <input aria-required="true" class="string text form-control" id="profile_email" maxlength="255" name="profile[email]" placeholder="Email Address" size="255" type="text" />
+    </div>
+  </div>
+  
+  
+  <div class='form-group'>
+    <div class="checkbox">
+      <label class="text">
+        <input id="profile_optin" type="checkbox" name="profile[optIn]" checked > Join our mailing list
+      </label>
+    </div>
+  </div>
+  
+  <br>
+  <div class='form-actions text-center'>
+    <input id="update_profile" class="button btn btn-info " name="commit" type="submit" value="Sign Up ">
+  </div>
+  <div class='form-response text-center' style="display:none;">
+    <p>Thanks!</p>
+  </div>
+  <br>
+  <p class="subtext">* No Credit Card Required</p>
+</form>
+
+<script type="text/javascript">
+$(window).bind("load", function() {
+  bowtie.user.profile(function(profile){
+      $("#profile_name").val(profile.name);
+      $("#profile_email").val(profile.email);
+      $("#profile_optin").prop('checked', (profile.optin == 'true'));
+
+  });
+
+  $(function(){
+    $("form.email-form").submit(function(event){
+      event.preventDefault();
+      var profileName = $('#profile_name').val();
+      var profileEmail = $('#profile_email').val();
+      var profileOptin = $('#profile_optin:checked').val();
+
+      var profileData = {
+        name: profileName,
+        email: profileEmail,
+        optin: profileOptin ? true : false
+      };
+
+      bowtie.user.profile(profileData, function(){
+          $('.form-group', this).hide();
+          $('.form-actions', this).hide();
+          $('.form-response', this).show();
+        }.bind(this));
+        return false;
+    });
+  });
+});
+</script>
+
+
+        
+      </div>
+
+      <div class="element testimonial  col-sm-6">
+        
+          <h1 class="headline">What clients are saying:</h1>
+<blockquote>
+  <h2 class="testimonial">I have never seen this combination of power and flexibility.</h2>
+  <h3 class="cite">Jack Dorsey</h3>
+  <p class="subtext">Entrepreneur</p>
+</blockquote>
+
+
+
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="content-container">
+</div>
+
+  </div>
+  <span id="top-link-block" class="hidden">
+  <a href="#top" class="well well-sm"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</span><!-- /top-link-block -->
+
+</body>
+<footer id="footer" class="sticky" style="background:transparent;">
+  <a name="connect"></a>
+  <div class="container">
+    <div class="subfooter">
+      <!-- remove the commented out li below if you are using our terms of svc generator, add other legal links as you see fit-->
+<nav id="legal-nav" class="legal" role="navigation">
+  <ul class="legal-links">
+    <li class="first">
+      <a class="legal-link" href="/privacy-policy.html" target="_blank">Privacy Policy</a>
+    </li>
+    
+    <!--li>
+      <a class="legal-link" href="/terms-of-service.html" target="_blank">Terms of Service</a>
+    </li-->
+  </ul>
+</nav>
+
+      <span>Landing Page by <a href="https://bowtie.io">⋈ BowTie</a>.</span>
+    </div>
+    <span id="top-link-block" class="hidden">
+  <a href="#top" class="well well-sm"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</span><!-- /top-link-block -->
+
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://bowtie.io/assets/bowtie.js"></script>
+<script type="text/javascript" src="/bowtie/api/users/info.js"></script>
+<script type="text/javascript" src="/js/flash.js"></script>
+<script type="text/javascript" src="/js/authentication.js"></script>
+<script type="text/javascript" src="/js/theme.js"></script>
+
+
+ <!-- add custom tracking scripts below this line -->
+
+</html>

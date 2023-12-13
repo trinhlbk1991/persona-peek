@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="BowTie.io">
+  <link rel="alternate" type="application/rss+xml" title="Landing Page - a Jekyll template by BowTie.io" href="http://localhost:4000/feed.xml" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Countdown - Landing Page - a Jekyll template by BowTie.io</title><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="Countdown"><meta property="og:site_name" content="Landing Page - a Jekyll template by BowTie.io"><meta property="og:description" content="Build a simple landing page without writing code. The BowTie collection editor makes it easy to build sites, blogs, or static apps that you can hand off to clients."><meta property="og:url" content="http://localhost:4000/"><meta property="article:published_time" content="2023-12-13T11:07:26+07:00"><meta name="author" content="Your Name"><meta property="article:author" content="http://localhost:4000/about/"><link rel="canonical" href="http://localhost:4000/" />
+
+
+  <link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+<link href="/css/main.css" rel="stylesheet">
+
+</head>
+
+<body id="landing">
+  <div id="flash-message" style="display:none;">
+  <div class="alert alert-alert fade in" style="display:none;">
+    <button class="close" aria-hidden="true" data-dismiss="alert" type="button">
+      x&nbsp;
+
+      <span class="message">&nbsp;</span>
+    </button>
+  </div>
+
+  <div class="alert alert-notice fade in" style="display:none;">
+    <button class="close" aria-hidden="true" data-dismiss="alert" type="button">
+      x&nbsp;
+
+      <span class="message">&nbsp;</span>
+    </button>
+  </div>
+</div>
+
+  <div id="content" class="lander-simple-singlecol">
+    <section id="hero" class="lander jumbotron bgclear">
+  
+
+
+  <div class="media-wrap">
+    <div style="background-image:url(/img/backgrounds/winter-cabin.jpg);" class="media fullscreen-bg cover parallax bgoverlayDark"></div>
+  
+  </div>
+
+
+
+
+  <div class="container">
+    <div class="align-elements row-80">
+        <div class="element countdown col-sm-12">
+
+        
+          <script type="text/javascript" src="/js/countdown.js"></script>
+<script type="text/javascript" src="/vendor/jquery.countdown/dist/jquery.countdown.min.js"></script>
+
+<h1 class="headline">Winter is Coming</h1>
+<div class="count-down pull-center" id="count-down" data-countdown="2017/01/01" data-countdown-hide-oncomplete="true">
+  <span class="count hideexpired"><span class="count-wrap"><span class="digits" id="days"></span> Days</span> </span>
+  <span class="count hideexpired"><span class="count-wrap"><span class="digits" id="hours"></span> Hours</span> </span>
+  <span class="count hideexpired"><span class="count-wrap"><span class="digits" id="minutes"></span> Mins</span> </span>
+  <span class="count hideexpired"><span class="count-wrap"><span class="digits" id="seconds"></span> Secs</span></span>
+  <div class="count-down-complete">
+    <h2>Winter is here!</h2>
+  </div>
+</div>
+<p class="copy">Have you ever built a snowman?  This winter you can stay in our beautiful cabin with enough snow to build a team of snowmen.</p>
+
+
+<style >
+.element.countdown h1,.element.countdown h2,.element.countdown h3, .element.countdown h4, .element.countdown h5, .element.countdown i, .element.countdown p {color:#fff !important;}
+</style>
+
+
+
+        
+
+      <div class="action popupform">
+        
+          <h2 class="subheadline"></h2>
+
+<a href="#" class="btn btn-warning" data-toggle="modal" data-target="#profile">Sign Up</a>
+
+<!-- Profile Modal -->
+<div class="modal fade" id="profile" tabindex="-1" role="dialog" aria-labelledby="#" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <h2>Enter your email address to find out as soon as our service is available.</h2>
+        <div id="profile" class="user-profile text-left">
+          
+          <div class='form-group'>
+            <div class="input">
+              <label class="text">
+                Name
+              </label>
+              <input aria-required="true" class="string text form-control" id="profile_name" maxlength="255" name="profile[name]" placeholder="Name"  size="255" type="text" />
+            </div>
+          </div>
+          
+          
+          <div class='form-group'>
+            <div class="input">
+              <label class="text">
+                Email
+              </label>
+              <input aria-required="true" class="string text form-control" id="profile_email" maxlength="255" name="profile[email]" placeholder="Email Address" size="255" type="text" />
+            </div>
+          </div>
+          
+          
+          <div class='form-response text-center' style="display:none;">
+            <p>Your information has been saved.</p>
+          </div>
+          <br>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class='form-actions text-center'>
+          <input id="update_profile" class="button btn btn-success" name="commit" type="submit" value="Sign Up">
+        </div>
+        <br>
+        
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+$(window).bind("load", function() {
+  bowtie.user.profile(function(profile){
+    $("#profile_name").val(profile.name);
+    $("#profile_email").val(profile.email);
+    $("#profile_optin").prop('checked', (profile.optin == 'true'));
+  });
+
+  $(function(){
+    $("#update_profile").on("click", function(){
+      var profileName = $('#profile_name').val();
+      var profileEmail = $('#profile_email').val();
+      var profileOptin = $('#profile_optin:checked').val();
+
+      var profileData = {
+        name: profileName,
+        email: profileEmail,
+        optin: profileOptin ? true : false
+      };
+
+      bowtie.user.profile(profileData, function(){
+        $('.form-group').hide();
+        $('.form-actions').hide();
+        $('.form-response').show();
+      }.bind(this));
+
+      return false;
+    });
+  });
+});
+</script>
+
+
+        
+      </div>
+
+    </div>
+  </div>
+</div>
+</section>
+
+
+<div class="content-container">
+<section id="examples" class="">
+    
+
+
+
+    <a name="examples"></a>
+    <div class="container">
+
+    
+    <div class="section-header">
+
+    
+
+    
+      
+      <h1 class="title"></h1>
+      
+    
+    
+      
+      <h2 class="subtitle">stuff and things&lt;/h3&gt;
+      
+    
+
+    &lt;/div&gt;
+    
+    <div class="content section-content">
+      &nbsp;
+
+<div class="row">
+    <div class="example col-sm-4 col-md-3">
+        <a href="/">
+          <img src="/img/examples/countdown-lander.jpg" />
+          <h3>Simple Countdown</h3>
+        </a>
+    </div>
+    <div class="example col-sm-4 col-md-3">
+        <a href="/landers/email-pop-up/">
+          <img src="/img/examples/leadgen-lander.jpg" />
+          <h3>Pop Up Lead Gen</h3>
+        </a>
+    </div>
+    <div class="example col-sm-4 col-md-3">
+        <a href="/landers/card/">
+          <img src="/img/examples/personal-card-lander.jpg" />
+          <h3>Personal Card</h3>
+        </a>
+    </div>
+    <div class="example col-sm-4 col-md-3">
+        <a href="/landers/ebook/">
+          <img src="/img/examples/popup-lander.jpg" />
+          <h3>Parenting Ebook</h3>
+        </a>
+    </div>
+    <div class="example col-sm-4 col-md-3">
+      <a href="/landers/birdwatching/">
+        <img src="/img/examples/video-lander.jpg" />
+        <h3>Video Background</h3>
+      </a>
+    </div>
+    <div class="example col-sm-4 col-md-3">
+      <a href="/landers/coming-soon/">
+        <img src="/img/examples/coming-soon-lander.jpg" />
+        <h3>Coming Soon</h3>
+      </a>
+    </div>
+    <div class="example col-sm-4 col-md-3">
+        <a href="/landers/app/">
+          <img src="/img/examples/app-lander.jpg" />
+          <h3>App Download</h3>
+        </a>
+    </div>
+    <div class="example col-sm-4 col-md-3">
+        <a href="/landers/testimonial/">
+          <img src="/img/examples/testimonial-lander.jpg" />
+          <h3>Testimonial</h3>
+        </a>
+    </div>
+</div>
+<br />
+<h6 class="text-center text-muted"><em>Want to remove this section? Delete '{% include section.html location="simple-countdown" %}
+' from the Simple Countdown lander.</em></h6>
+</div>
+
+
+
+    &lt;/div&gt;
+    
+      <div class="cta text-center">
+      
+      
+      
+      </div>
+    
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+
+
+
+
+</h2></div></div></section>
+</div>
+
+  </div>
+  <span id="top-link-block" class="hidden">
+  <a href="#top" class="well well-sm"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</span><!-- /top-link-block -->
+
+</body>
+<footer id="footer" class="sticky" style="background:#222;">
+  <a name="connect"></a>
+  <div class="container">
+    <div class="subfooter">
+      <!-- remove the commented out li below if you are using our terms of svc generator, add other legal links as you see fit-->
+<nav id="legal-nav" class="legal" role="navigation">
+  <ul class="legal-links">
+    <li class="first">
+      <a class="legal-link" href="/privacy-policy.html" target="_blank">Privacy Policy</a>
+    </li>
+    
+    <!--li>
+      <a class="legal-link" href="/terms-of-service.html" target="_blank">Terms of Service</a>
+    </li-->
+  </ul>
+</nav>
+
+      <span>Landing Page by <a href="https://bowtie.io">⋈ BowTie</a>.</span>
+    </div>
+    <span id="top-link-block" class="hidden">
+  <a href="#top" class="well well-sm"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</span><!-- /top-link-block -->
+
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://bowtie.io/assets/bowtie.js"></script>
+<script type="text/javascript" src="/bowtie/api/users/info.js"></script>
+<script type="text/javascript" src="/js/flash.js"></script>
+<script type="text/javascript" src="/js/authentication.js"></script>
+<script type="text/javascript" src="/js/theme.js"></script>
+
+
+ <!-- add custom tracking scripts below this line -->
+
+</html>
