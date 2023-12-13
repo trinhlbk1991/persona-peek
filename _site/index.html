@@ -18,7 +18,9 @@
 	
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<link rel="stylesheet" href="/main.css">
+	<link rel="stylesheet" href="/main.css">	
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lexend Deca">
+  
 </head>
 
 <body>
@@ -116,6 +118,26 @@
     
 
     
+        
+            <script>
+                $(function() {
+                    $(".iphoneScreen").addClass("hidden");
+                    console.log("remove screenshot");
+                });
+            </script>
+        
+        
+        <script>
+            $(function() {
+                $(".videoContainer").removeClass("hidden");
+                $(".screenvideo").append('<source src="/assets/videos/mymoney.webm" type="video/webm">');
+                console.log("/assets/videos/mymoney.webm");
+            });
+        </script>
+        
+    
+
+    
 
     
 
@@ -149,7 +171,7 @@
                             
                                 <a class="playStoreLink" href="https://play.google.com/store/apps/details?id=com.icedtealabs.mymoney&hl=en_US&gl=US"><img class="playStore" src="assets/playstore.png"></a>
                             
-                            <a class="appStoreLink" href=""><img class="appStore" src="assets/appstore.png"></a>
+                            <!-- <a class="appStoreLink" href=""><img class="appStore" src="assets/appstore.png"></a> -->
                         </div>
                     </div>
                     <div class="features">
@@ -161,15 +183,15 @@
         <div>
             <span class="fa-stack fa-1x">
                 <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-magic fa-stack-1x"></i>
+                <i class="iconTop fas fa-money-bill fa-stack-1x"></i>
             </span>
         </div>
         <div class="featureText">
             <h3>
-                GitHub Pages Jekyll Theme
+                Manage Expenses and Incomes Effortlessly
             </h3>
             <p>
-                Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+                Super easy and simple to record expense, income, debt, bill, and payment with just a few taps
             </p>
         </div>
     </div>
@@ -182,15 +204,15 @@
         <div>
             <span class="fa-stack fa-1x">
                 <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-mobile fa-stack-1x"></i>
+                <i class="iconTop fas fa-chart-line fa-stack-1x"></i>
             </span>
         </div>
         <div class="featureText">
             <h3>
-                iPhone Device Preview
+                Cash Flow at a Glance
             </h3>
             <p>
-                Preview your app in the context of an iPhone device. Five different device colors included.
+                Easy to read reports of the total expense, total income, spending by each category, or pending bills help you understand the cash flow better
             </p>
         </div>
     </div>
@@ -203,148 +225,18 @@
         <div>
             <span class="fa-stack fa-1x">
                 <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-play-circle fa-stack-1x"></i>
+                <i class="iconTop fas fa-piggy-bank fa-stack-1x"></i>
             </span>
         </div>
         <div class="featureText">
             <h3>
-                Video Support
+                Create Weekly, Monthly, and Annual Budgets
             </h3>
             <p>
-                Preview app video on the iPhone device simply by placing your video files in the videos folder.
+                Easily set spending limits for different timeframes and categories.
             </p>
         </div>
     </div>
-    
-
-    
-
-    
-    <div class="feature">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-sync fa-stack-1x"></i>
-            </span>
-        </div>
-        <div class="featureText">
-            <h3>
-                Automatic Icon and Metadata
-            </h3>
-            <p>
-                Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-            </p>
-        </div>
-    </div>
-    
-
-    
-
-    
-    <div class="feature">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-adjust fa-stack-1x"></i>
-            </span>
-        </div>
-        <div class="featureText">
-            <h3>
-                Easy to Tweak
-            </h3>
-            <p>
-                Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-            </p>
-        </div>
-    </div>
-    
-
-    
-
-    
-    <div class="feature">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-star fa-stack-1x"></i>
-            </span>
-        </div>
-        <div class="featureText">
-            <h3>
-                Feature List
-            </h3>
-            <p>
-                Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-            </p>
-        </div>
-    </div>
-    
-
-    
-
-    
-    <div class="feature">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-arrow-alt-circle-down fa-stack-1x"></i>
-            </span>
-        </div>
-        <div class="featureText">
-            <h3>
-                Smart App Banner
-            </h3>
-            <p>
-                Display a smart app banner on iOS devices.
-            </p>
-        </div>
-    </div>
-    
-
-    
-
-    
-    <div class="feature">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-link fa-stack-1x"></i>
-            </span>
-        </div>
-        <div class="featureText">
-            <h3>
-                Social Links
-            </h3>
-            <p>
-                Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-            </p>
-        </div>
-    </div>
-    
-
-    
-
-    
-    <div class="feature">
-        <div>
-            <span class="fa-stack fa-1x">
-                <i class="iconBack fas fa-circle fa-stack-2x"></i>
-                <i class="iconTop fas fa-info-circle fa-stack-1x"></i>
-            </span>
-        </div>
-        <div class="featureText">
-            <h3>
-                FontAwesome Support
-            </h3>
-            <p>
-                Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-            </p>
-        </div>
-    </div>
-    
-
-    
-
     
 
     
