@@ -1,37 +1,28 @@
 ---
-layout: blog
+layout: default
 ---
-{% if page.author %}
-  {% assign author = site.authors | where:"name", page.author | first %}
-{% endif %}
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="post__container">
+    <header class="post__header">
+      <h1 class="post__title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p class="post__meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          {{ page.date | date: date_format }}
+        </time>
+        {% if page.author %}
+          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+        {% endif %}</p>
+    </header>
 
- <div class="post">
-  <article class="post-content blog-post-content">
-    {{ content }}
-  </article>
-  <div class="post-metadata">
-    {% if author %}
-    by <a href="//twitter.com/{{ author.twitter }}">{{ author.displayName }}</a>
+    <div class="post__content" itemprop="articleBody">
+      {{ content }}
+    </div>
+
+    <div class="post__comments">
+    {% if site.disqus.shortname %}
+      {% include disqus_comments.html %}
     {% endif %}
-    {{ page.date | date: "%b %-d, %Y" }}
-    {% if page.categories %}
-    <span class="category-list">&nbsp;|&nbsp; Categories: {% include category-list.html %}</span>
-    {% endif %}
+    </div>
   </div>
-  <br />
-
-  {% if page.elsewhere.name %}
-  <h6 class="elsewhere">Reposted from:<a href="{{page.elsewhere.url}}">{{ page.elsewhere.name }}</a></h6>
-  {% endif %}
-
-  {% if page.share %}
-    {% include addthis.html %}
-  {% endif %}
-
-  {% if page.comments %}
-     {% include disqus.html %}
-  {% endif %}
-
-  {% include breadcrumb.html %}
-
-</div>
+</article>

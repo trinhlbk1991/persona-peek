@@ -1,18 +1,14 @@
 ---
 layout: default
 ---
-<div class="post">
+<article class="page">
 
-  <article class="post-content">
+  <header class="page__header">
+    <h1 class="page__title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="page__content">
     {{ content }}
-  </article>
+  </div>
 
-  {% if page.share %}
-    {% include addthis.html %}
-  {% endif %}
-
-  {% if page.comments %}
-     {% include disqus.html %}
-  {% endif %}
-
-</div>
+</article>
