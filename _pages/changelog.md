@@ -4,62 +4,160 @@ title: What's New
 include_in_header: true
 ---
 
-# Changelog
-Here you can keep a changelog for your app. Edit the markdown based CHANGELOG.md which is located in the _pages directory. The changelog below is simply an example changelog that serves to exemplify how the markdown can be used. You can be as creative as you want with the markdown.
+# VERSION 1.13.0
+- Swipe to navigate between reports 🚙
+- Auto sync data between devices based on backup data found on Google Drive 💾
+- Add transfer button on hone screen 🔥
+- Donation section for Bánh Mì 🥖
 
-<br>
 
-### `Latest`
-# **Version 2.0**
-This is the first update to our app. Jeez **goodness** by kept more sensually a much far proper exotically precise [here is a link](https://www.google.com) and and illicit hey uninspiring the more sat honey knelt before before bearish bowed lorikeet wolf grandly instead diligently and rhinoceros imperative.
+# VERSION 1.12.0
+- Revert the swipe gesture on dashboard ⎌
+- Fix incorrect currency on dashboard 💰
+- Fix cannot export data to excel 😫
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- [Changes to Privacy Policy](/privacypolicy)
 
-#### Bug Fixes
-- Much far proper exotically precise unaccountable.
-- [Changes to Privacy Policy](/privacypolicy)
+# VERSION 1.9.1
+- Fix go back button on Add Transaction Screen not work if launched from widget 🐞
 
-<br>
 
-### **Version 2.1**
-Abnormal and formidable against much the before well improper more spent far heron amicably iguana plainly swanky upon mammoth **much paid darn some tapir** some glared save crud more regarding one accommodating gosh cannily and on hungry a more goodness inside merry yikes wedded versus because some a a a shined anteater goldfinch jeez up so and this this a.
+# VERSION 1.9.0
+- Now you can add widget to home screen for faster adding transaction 💡
+- Show most used categories first when adding transaction 🔥
+- Fix cannot scroll if categories are too many 🐞
+- Fix incorrect repeated transaction 🐞
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
 
-<br>
+# VERSION 1.8.2
+- Archive wallet 📦
+- Fix update category from expense to income not reflect to the money value 🐞
 
-________
-<br>
 
-### `Initial Release`
-# **Version 1.0**
-Cracked a more and iguana a without some echidna a abnormal hello and beat thanks jeepers gnu jeepers until up depending for drooled awfully angelfish relentless much a well wasp some in impala darn and overate greedily wow kookaburra beneath much wistful fluid until and lemming less armadillo redoubtable after much capybara wow that hence interbred timorous loosely oh divisively wherever because jeepers until since as that goodness roadrunner insanely belated physic jeepers hey jeepers much the beside steadfastly up toward indubitably this goodness playful.
+# VERSION 1.8.0
+- Now user can add photo to a transaction 🏞
+- Improve transfer money between wallets 🔁
+- Improve on edit a transaction ✒️
+- Fix cannot scroll if categories are too many 🐞
+- Fix pin and fingerprint lock not work 🔒
 
-<br>
 
-## **Version 1.1**
-Abnormal and formidable against much the before well improper more spent far heron amicably iguana plainly swanky upon mammoth **much paid darn some tapir** some glared save crud more regarding one accommodating gosh cannily and on hungry a more goodness inside merry yikes wedded versus because some a a a shined anteater goldfinch jeez up so and this this a.
+# VERSION 1.7.0
+- Support daily and yearly view mode in transactions screen 📅
+- Now you can create repeat transaction 🔁
+- Fix crash when view wallet details 🐞
+- Add Algeria into currency list 💰
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
 
-<br>
+# VERSION 1.6.3
+- Fix incorrect report data 🐞
+- Fix show pincode many times 🐞
 
-## Version 1.0.1
-That wow robin one and gosh audibly darn that variously less across softly awakened under affectingly wildebeest from jeepers far contemplated and indisputably clung jeepers much mistaken some after mumbled hey certain neatly far alas more trod the swelled rolled permissively so save pert the tapir paradoxical off so then juggled crud a however overslept vehemently kept indisputably anteater walked alas or into.
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
+# VERSION 1.6.0
+- Refine UI for budget screens 🎨
+- Import and export data to excel files 📦
+- Fix cannot input cent money 🤑
+- Fix incorrect report data 📝
+- Fix wrong app icon on some devices 🤷‍♂️
 
-#### Bug Fixes
-- Improved user sign up experience.
-- Unlike deliberately zebra hen oh jeez understandable. Alas and quit oh snooty unlike deliberately.
 
-<br>
+# VERSION 1.5.0
+- Introduce "Monthly Look Back" to help you review last month performance 👀
+- Secure your app data with fingerprint authentication 👌
+- Schedule auto-backup daily, weekly or monthly 📅
+- Fix minor bugs 🐞
+
+
+# VERSION 1.4.1
+- Introduce "Daily Budget" - allows you to set a budget for daily transactions 💰
+- Support reorder wallets when long press ↕️
+- Fix minor bugs 🐞
+
+
+# VERSION 1.2.0
+- Introduce wallet details screen with statistics 📊
+- Enhance UX for creating wallet and making transfer 🔥
+- Copy budget from last month 👀
+- Option to hide transfer transactions on Dashboard 💨
+
+
+# VERSION 1.1.0
+- Fix bug cannot input memo 📝
+
+
+# VERSION 1.1.0
+- Refine the Budget Manager screens 🎨
+- Smart memo suggestiong when input transaction 🪄
+- Show different in expense compare to previous month 📈
+- Fix issues data not refreshed after update transaction 🔄
+- Fix the white icon for the notification ⚪️
+
+
+# VERSION 1.0.4
+- New feature: Backup data to Google Drive 🛸
+- Set reminder to record transactions daily ⏰
+- Improve adding category UX 🪄
+- Fix minor bugs 🐞
+
+
+# VERSION 1.0.3
+- New feature: Local Backup 🗳
+- Improve UX on small screen sizes 🖥
+- Fix minor bugs about app colors 🎨
+
+
+# VERSION 1.0.1
+- Disable data sync and migration 🛑
+
+
+# VERSION 1.0.0
+- First production launch 🚀
+- Allow user to logout 🙋‍♂️
+- Improve performance and user experience 💪
+
+
+# VERSION 0.0.12
+- Monthly report details available! 📄
+- Support data migration when login to new devices 🔄
+- Fix minor bugs about user profile update 🐞
+
+
+# VERSION 0.0.9
+- Login using Google account 👻
+- Sync data across devices 💻
+- Improve user experience when adding transaction 🌸
+- Fix minor bugs 🐞
+
+
+# VERSION 0.0.8
+- Fix issue cannot load dashboard and report 🐞
+- Add change log screen 📄
+
+
+# VERSION 0.0.7
+- Add Report Problem 🕸
+- Fix minor bugs 🐞
+
+
+# VERSION 0.0.6
+- Improve  add transaction  screen, date picker and currency picker 🔥
+
+
+# VERSION 0.0.5
+- Manage categories
+
+
+# VERSION 0.0.4
+- Budget planning
+
+
+# VERSION 0.0.3
+- Fix report bugs
+
+
+# VERSION 0.0.2
+- Revamp report screen
+
+
+# VERSION 0.0.1
+- First beta launch
