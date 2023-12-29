@@ -3,6 +3,11 @@ layout: page
 title: What's New
 include_in_header: true
 ---
+# VERSION 1.14.0
+- Adapt material design 3 🎩
+- Fix bug the swipe guide dialog is annoying! 😤
+- Support delete account from the app 🚮
+
 
 # VERSION 1.13.0
 - Swipe to navigate between reports 🚙
