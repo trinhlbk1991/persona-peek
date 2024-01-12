@@ -3,6 +3,11 @@ layout: page
 title: What's New
 include_in_header: true
 ---
+# VERSION 1.15.0
+- Fix cannot filter date range for custom mode 🐛
+- Allow users to censor the money value 👁️
+- Improve backup screen 🛑
+
 # VERSION 1.14.0
 - Adapt material design 3 🎩
 - Fix bug the swipe guide dialog is annoying! 😤
