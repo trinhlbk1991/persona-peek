@@ -3,6 +3,10 @@ layout: page
 title: What's New
 include_in_header: true
 ---
+# VERSION 1.15.2
+- Fix censor money not working in Manage Wallets screen 🐞
+- Fix filter week mode not working 🥹
+
 # VERSION 1.15.0
 - Fix cannot filter date range for custom mode 🐛
 - Allow users to censor the money value 👁️
