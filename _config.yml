@@ -5,10 +5,10 @@ ios_app_id:
 ios_app_country: us
 
 appstore_link: https://apps.apple.com/vn/app/mymoney-finance/id6475389461
-playstore_link: https://play.google.com/store/apps/details?id=com.icedtealabs.mymoney&hl=en_US&gl=US 
+playstore_link: https://play.google.com/store/apps/details?id=com.icedtealabs.mbti_test
 presskit_download_link:
 
-app_icon: https://play-lh.googleusercontent.com/OLd0c_wU9b8DaRd7TOVerwlhkIbHjLSve86rTExck39R7jbY5XrWxBTrmOQMsfXNnQ=w480-h960-rw
+app_icon: /assets/icon.png
 app_name: Persona Peek
 app_price: Free
 app_description: Discover your personality, gain deep insights into your personality and behavior
@@ -30,15 +30,15 @@ mastodon_link:
 features:
   - title: Comprehensive Personality Analysis
     description: Understand your unique traits, strengths, and weaknesses with detailed analyses from our 16 personalities quiz.
-    fontawesome_icon_name: money-bill
+    fontawesome_icon_name: question-circle-o
 
   - title: Dual Insight with Enneagram Test
     description: Gain deeper self-awareness with additional insights from our Enneagram personality quiz.
-    fontawesome_icon_name: chart-line
+    fontawesome_icon_name: puzzle-piece
 
   - title: Practical Advice for Personal Growth
     description: Get actionable strategies to overcome common frustrations and enhance personal and professional development.
-    fontawesome_icon_name: piggy-bank
+    fontawesome_icon_name: leaf
 
 # Theme Settings
 topbar_color: "#000000"
