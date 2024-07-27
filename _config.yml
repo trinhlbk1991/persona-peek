@@ -1,7 +1,7 @@
-page_title: myMoney
+page_title: Persona Peek
 
 # App Info
-ios_app_id: 6475389461
+ios_app_id: 
 ios_app_country: us
 
 appstore_link: https://apps.apple.com/vn/app/mymoney-finance/id6475389461
@@ -9,9 +9,9 @@ playstore_link: https://play.google.com/store/apps/details?id=com.icedtealabs.my
 presskit_download_link:
 
 app_icon: https://play-lh.googleusercontent.com/OLd0c_wU9b8DaRd7TOVerwlhkIbHjLSve86rTExck39R7jbY5XrWxBTrmOQMsfXNnQ=w480-h960-rw
-app_name: myMoney
+app_name: Persona Peek
 app_price: Free
-app_description: myMoney is an optimized application to help you manage your personal finance effectively.
+app_description: Discover your personality, gain deep insights into your personality and behavior
 
 enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -28,16 +28,16 @@ youtube_username:
 mastodon_link: 
 
 features:
-  - title: Manage Expenses and Incomes Effortlessly
-    description: Super easy and simple to record expense, income, debt, bill, and payment with just a few taps
+  - title: Comprehensive Personality Analysis
+    description: Understand your unique traits, strengths, and weaknesses with detailed analyses from our 16 personalities quiz.
     fontawesome_icon_name: money-bill
 
-  - title: Cash Flow at a Glance
-    description: Easy to read reports of the total expense, total income, spending by each category, or pending bills help you understand the cash flow better
+  - title: Dual Insight with Enneagram Test
+    description: Gain deeper self-awareness with additional insights from our Enneagram personality quiz.
     fontawesome_icon_name: chart-line
 
-  - title: Create Weekly, Monthly, and Annual Budgets
-    description: Easily set spending limits for different timeframes and categories.
+  - title: Practical Advice for Personal Growth
+    description: Get actionable strategies to overcome common frustrations and enhance personal and professional development.
     fontawesome_icon_name: piggy-bank
 
 # Theme Settings
